@@ -4,9 +4,6 @@ import LocalStorage from "../../utils/LocalStorage";
 export default function TodoCreator() {
     const plusItem = () => {
         const todoList = JSON.stringify(LocalStorage.getItem('todo-list'))
-
-        todoList.
-        LocalStorage.setItem()
     }
 
     return <Layout>+</Layout>
